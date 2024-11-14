@@ -1,0 +1,7 @@
+<div class="flex flex-col gap-4 mt-4">
+  <%= simple_form_for list do |f| %>
+    <%= f.input :name, input_html: { class: "flex flex-col mb-4 rounded-md" } %>
+    <%= f.submit class: "bg-blue-500 text-white p-2 rounded-md mb-4 hover:bg-blue-700 hover:cursor-pointer" %>
+    <%= link_to "Back", lists_path, class: "bg-red-500 text-white p-2 rounded-md mb-4 hover:bg-red-700 hover:cursor-pointer" %>
+  <% end %>
+</div>
