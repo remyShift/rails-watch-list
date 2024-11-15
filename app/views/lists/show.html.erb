@@ -1,4 +1,5 @@
-<%= render "shared/hero", title: @list.name, hero_image: @background_image[@list.name.downcase.to_sym] %>
+<% img = @list.image.attached? ? @list.image.key : @list.class::BACKGROUND_IMAGES[@list.name.downcase.to_sym] %>
+<%= render partial: "shared/hero", locals: {title: @list.name, hero_image: img} %>
 
 <div class="p-4 flex flex-col gap-4">
   <h1 class="font-bold text-4xl my-4"><%= @list.name %></h1>

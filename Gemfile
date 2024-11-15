@@ -11,6 +11,8 @@ gem 'faker'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem "cloudinary"
+
 gem "autoprefixer-rails"
 
 gem "simple_form"
