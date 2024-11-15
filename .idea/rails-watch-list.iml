@@ -51,6 +51,8 @@
     <orderEntry type="library" scope="PROVIDED" name="date (v3.4.0, ruby-3.3.5-p100) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.9.2, ruby-3.3.5-p100) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.5.1, ruby-3.3.5-p100) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v3.1.4, ruby-3.3.5-p100) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v3.1.4, ruby-3.3.5-p100) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.1, ruby-3.3.5-p100) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.13.0, ruby-3.3.5-p100) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.10.0, ruby-3.3.5-p100) [gem]" level="application" />
